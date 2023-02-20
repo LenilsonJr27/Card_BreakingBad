@@ -47,9 +47,26 @@ body{
     padding: 20px;
 }
 
+.actionsCard{
+	display: flex;
+	
+}
 .actions{
     background: none;
     border: none;
     color: green;
     cursor: pointer;
+}
+
+.countLikeContainer{
+	margin-left: auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 5px;
+}
+
+.like-img{
+	width: 18px;
+	height: 18px;
 }
